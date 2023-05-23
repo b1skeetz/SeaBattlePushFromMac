@@ -10,6 +10,8 @@ public class Main {
         }
         System.out.println("Test");
         Animal animal = new Animal("Barsik", 5);
+        Dog d1 = new Dog("Maxim", 5, "Damir");
+        System.out.println(d1.getAge());
         System.out.println(animal.getName());
     }
 }
