@@ -27,6 +27,6 @@ public class Animal {
     }
 
     public void voice(){
-        System.out.println("Cat is meowing");
+        System.out.println("Animal is talking");
     }
 }
